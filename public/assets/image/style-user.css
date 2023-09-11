@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #121212;
+}
+button{
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.sidebar{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background: #048480;
+}
+.admin{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-bottom: 5px black;
+}
+.admin-img{
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    
+}
+.admin p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 7px;
+    margin: auto;
+    text-align: center;
+}
+.admin h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    line-height: 10px;
+}
+body.open.sidebar{
+    width: 260px;
+}
+.sidebar-inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.sidebar-burger{
+    width: 50px;
+    height:50px;
+    display: block;
+    place-items: flex;
+    background: url(menu3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0,3s;
+}
+body.open.sidebar-burger{
+    background-image: url(settings.svg);
+}
+.menu{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.1);
+
+}
+/* .sidebar-logo{
+    height: 20px;
+    opacity: 0;
+    transition: 0.3s;
+
+} */
+
+body.open.sidebar-logo{
+    opacity: 1;
+}
+.sidebar button{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    height: 60px;
+    width: 100px;
+    font-family: "poppiens";
+    font-size: 16px;
+    font-weight: 200px;
+    letter-spacing: 2px;
+    line-height: 1;
+    padding: 0 25px;
+
+}
+.sidebar button:hover{
+    background-color: #b5d3df;
+    transition: 1s;
+    border-left: 5px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+.sidebar-nav{
+    margin-top: 100px;
+    flex: 1 1 auto;
+}
+
+.sidebar button > img{
+    width: 30px;
+    height: 30px;
+
+}
+.sidebar button > span{
+    color: #f9f9f9;
+    opacity: 0;
+    transition: 0.3s;
+
+
+}
+.home{
+    display: flex;
+    margin-left: 100px;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #b5d3df;
+    
+}
+
+
+@keyframes appear {
+    0% {opacity: 0; translate: 0 10px;}
+    100% {opacity: 1; translate: 0;}
+}
+body.open.sidebar button > span {
+    opacity: 1;
+    animation: appear 0.3 both;
+}
+
