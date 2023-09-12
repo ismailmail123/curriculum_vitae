@@ -1,9 +1,13 @@
 import Criteria from '@/containers/Criteria/index';
+import Sidebar from '@/components/Sidebarxl/index';
 
 function CriteriaPage () {
 
     return (
-        <Criteria />
+        <>
+            <Sidebar />
+            <Criteria/>
+        </>
     )
 }
 

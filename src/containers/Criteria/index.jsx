@@ -14,7 +14,7 @@ function Criteria (){
 
     return (
 
-        <Row>
+        <Row className="mt-5">
            <Col className="col-4 padding-left " style={{height: '100vh'}}>
            <div className='logo2 bg-primary bg-opacity-50 p-2'>
                         <div className="admin2">
