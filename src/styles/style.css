@@ -379,5 +379,5 @@ nav i.bi {
     font-size: 13px;
 }
 .overflow-x {
-    overflow-x: scroll;
+    overflow-y: scroll;
 }

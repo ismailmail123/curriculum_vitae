@@ -50,7 +50,8 @@ function Identity (){
                     </div>
            </Col>
            <Col className="col-9 " style={{height: '100vh'}}>
-           <Card className="border-0 bg-success p-2 bg-opacity-10 overflow-x" style={{width: '90%'}}>
+           <Card className="border-0 bg-success p-2 bg-opacity-10 overflow-x-auto" style={{width: '90%'}}>
+            <div style={{ width: '370px'}}>
             <div>
             <BiSolidUserCircle className="text-primary" style={{borderRadius: '50%', width: '30px', height: '30px'}} src={avatar} alt="" />
             <span className="fw-bold">DATA PRIBADI</span>
@@ -63,7 +64,7 @@ function Identity (){
                         </div>
                         <div>
                             <AiFillCheckCircle style={{fontSize: '15px'}}/>
-                            <span className="ms-2 font-card" >Tempat & Tanggal Lahir</span>
+                            <span className="ms-2 font-card" >TTL</span>
                         </div>
                         <div>
                             <AiFillCheckCircle style={{fontSize: '15px'}}/>
@@ -103,9 +104,11 @@ function Identity (){
                     </div>
                         
                     </Col>
-                </Row>    
+                </Row>
+                </div>    
             </Card>
-            <Card className="mt-4 border-0 bg-success p-2 bg-opacity-10 overflow-x" style={{width: '90%'}}>
+            <Card className="mt-4 border-0 bg-success p-2 bg-opacity-10 overflow-x-auto" style={{width: '90%'}}>
+                <div style={{ width: '320px'}}>
                 <div>
                     <BiSolidUserCircle className="text-primary" style={{borderRadius: '50%', width: '30px', height: '30px'}} src={avatar} alt="" />
                     <span className="fw-bold">PENDIDIKAN FORMAL</span>
@@ -165,15 +168,17 @@ function Identity (){
                     <span className="ms-4 fw-bold">Alamat : </span>
                     <span>Pamalekang Jenne Kab. Maros</span>
                 </div>
-            </Row>        
+                
+            </Row> 
+            </div>       
             </Card>
-            <Card className="mt-3 border-0 bg-success p-2 bg-opacity-10 overflow-x" style={{width: '90%'}}>
+            <Card className="mt-3 border-0 bg-success p-2 bg-opacity-10 overflow-x" >
             <div>
             <BiSolidUserCircle className="text-primary" style={{borderRadius: '50%', width: '30px', height: '30px'}} src={avatar} alt="" />
             <span className="fw-bold">TENTANG SAYA</span>
             </div>
-                <Row className="ms-1">
-                <table className="ms-3" style={{fontSize: '10px', width: '90%'}} >
+                <Row className="ms-1" style={{ width: '390px'}}>
+                <table className="ms-3" style={{fontSize: '10px', width: '100%'}} >
                     <tbody>
                         <tr>
                             <td className="fw-bold font-card">Warna Favorit</td>
