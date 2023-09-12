@@ -6,6 +6,7 @@ import { BsWhatsapp, BsInstagram } from 'react-icons/bs';
 import { BiLogoFacebookCircle, BiSolidUserCircle } from 'react-icons/bi';
 import { AiFillCheckCircle, AiOutlineMail } from 'react-icons/ai';
 import { SiGooglemaps } from 'react-icons/si';
+import ReactWhatsapp from 'react-whatsapp';
 
 
 function Identity (){
@@ -28,26 +29,27 @@ function Identity (){
                         <div className="row-gap-3" style={{marginTop: '150px'}}>
                             <Row >
                                 <a className="d-flex justify-content-center" href="#">
-                                    <BsWhatsapp className="text-success rounded-circle mt-5 fs-2" />
+                                <ReactWhatsapp className="border-0 w-100 " number="+6285342545607" message="اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَا تُهُ" > <BsWhatsapp className="text-success rounded-circle mt-5 fs-2" /> </ReactWhatsapp>
+                                 
                                 </a>
                             </Row>
                             <Row>
-                                <a className="d-flex justify-content-center" href="#">
+                                <a className="d-flex justify-content-center" href="https://m.facebook.com/profile.php/?id=100005335387345">
                                     <BiLogoFacebookCircle className="text-primary rounded-circle mt-5 fs-2" />
                                 </a>
                             </Row>
                             <Row>
-                                <a className="d-flex justify-content-center" href="#">
+                                <a className="d-flex justify-content-center" href="https://www.instagram.com/ismail_adzikr/">
                                     <BsInstagram className="text-danger-emphasis rounded-circle mt-5 fs-2" />
                                 </a>
                             </Row>
                             <Row>
-                                <a className="d-flex justify-content-center" href="#">
+                                <a className="d-flex justify-content-center" href="https://mail.google.com/mail/u/0/">
                                     <AiOutlineMail className="text-black rounded-circle mt-5 fs-2" />  
                                 </a>
                             </Row>
                             <Row>
-                                <a className="d-flex justify-content-center" href="#">
+                                <a className="d-flex justify-content-center" href="https://www.google.com/maps?q=-5.5369767,119.9318322&z=17&hl=id">
                                     <SiGooglemaps className="text-warning rounded-circle mt-5 fs-2" />   
                                 </a>
                             </Row>
