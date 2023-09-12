@@ -13,7 +13,7 @@ function SidebarMobile () {
                     <Row>
                         <Col>
                             <p>
-                              <a href="#home">
+                              <a href="/identity">
                                 <FcHome className="mb-3" />
                               </a>
                             </p>
