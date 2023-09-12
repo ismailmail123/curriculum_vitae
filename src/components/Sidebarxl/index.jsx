@@ -7,11 +7,13 @@ import avatar from '../../../public/assets/image/avatar.jpg'
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import { useState } from "react";
 import { Button, Form } from "react-bootstrap";
+import { useRouter } from "next/router";
 
 function Sidebar (){
 
    
     const [smallnavCollapse, setSmallNavCollapse] = useState(false);
+    const router = useRouter()
 
     return (
         
@@ -51,13 +53,17 @@ function Sidebar (){
                 
                 <div className="sidebar-inner">
                     <nav className="sidebar-nav" style={{marginTop: '70px'}}>
-                        <button type="button" style={{width: '300px'}}>
+                        <button  style={{width: '300px'}}
+                        onClick={() =>router.push('/identity')}
+                        >
                             <FcHome className="fs-3"></FcHome>
                             Home
                             <span style={{animationDelay: "0.1s"}}>
                             </span>
                         </button>
-                        <button type="button" style={{width: '300px'}}>
+                        <button type="button" style={{width: '300px'}}
+                        onClick={() =>router.push('/criteria')}
+                        >
                             <GrDocumentStore className="fs-3" />
                             Data
                             <span style={{animationDelay: "0.1s"}}>
