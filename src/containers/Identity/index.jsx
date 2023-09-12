@@ -2,9 +2,10 @@ import Image from "next/image";
 import { Card, Col, Row } from "react-bootstrap";
 import ismail from '../../../public/assets/image/Ismail.jpg';
 import avatar from '../../../public/assets/image/avatar.jpg'
-import { BsWhatsapp } from 'react-icons/bs';
+import { BsWhatsapp, BsInstagram } from 'react-icons/bs';
 import { BiLogoFacebookCircle, BiSolidUserCircle } from 'react-icons/bi';
-import { AiFillCheckCircle } from 'react-icons/ai';
+import { AiFillCheckCircle, AiOutlineMail } from 'react-icons/ai';
+import { SiGooglemaps } from 'react-icons/si';
 
 
 function Identity (){
@@ -25,25 +26,30 @@ function Identity (){
                     style={{height: '100vh', width: '100%', marginTop: '-150px'}}
                     >
                         <div className="row-gap-3" style={{marginTop: '150px'}}>
-                            <Row>
-                                <BsWhatsapp className="text-success rounded-circle" />
-                               
+                            <Row >
+                                <a className="d-flex justify-content-center" href="#">
+                                    <BsWhatsapp className="text-success rounded-circle mt-5 fs-2" />
+                                </a>
                             </Row>
                             <Row>
-                                <BiLogoFacebookCircle className="text-success rounded-circle" />
-                               
+                                <a className="d-flex justify-content-center" href="#">
+                                    <BiLogoFacebookCircle className="text-primary rounded-circle mt-5 fs-2" />
+                                </a>
                             </Row>
                             <Row>
-                                <BsWhatsapp className="text-success rounded-circle" />
-                               
+                                <a className="d-flex justify-content-center" href="#">
+                                    <BsInstagram className="text-danger-emphasis rounded-circle mt-5 fs-2" />
+                                </a>
                             </Row>
                             <Row>
-                                <BsWhatsapp className="text-success rounded-circle" />
-                               
+                                <a className="d-flex justify-content-center" href="#">
+                                    <AiOutlineMail className="text-black rounded-circle mt-5 fs-2" />  
+                                </a>
                             </Row>
                             <Row>
-                                <BsWhatsapp className="text-success rounded-circle" />
-                               
+                                <a className="d-flex justify-content-center" href="#">
+                                    <SiGooglemaps className="text-warning rounded-circle mt-5 fs-2" />   
+                                </a>
                             </Row>
                         </div>
                        
@@ -190,7 +196,7 @@ function Identity (){
                         </tr>
                         <tr>
                             <td className="fw-bold font-card"> Minuman Favorit </td>
-                            <td className="font-card">Madu, air Kelapa, Jus Melon, Jus Buah Naga</td>
+                            <td className="font-card">: Madu, air Kelapa, Jus Melon, Jus Buah Naga</td>
                         </tr>
                         <tr>
                             <td className="fw-bold font-card"> Hal yang Disuka </td>
