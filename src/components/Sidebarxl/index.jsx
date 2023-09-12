@@ -56,7 +56,7 @@ function Sidebar (){
                         <button  style={{width: '300px'}}
                         onClick={() =>router.push('/identity')}
                         >
-                            <FaHome className="fs-3"></FcHome>
+                            <FaHome className="fs-3"></FaHome>
                             Home
                             <span style={{animationDelay: "0.1s"}}>
                             </span>

@@ -38,7 +38,7 @@ function Criteria (){
                                 <h6 className="fw-bold text-center">MISI</h6>
                                 <div className="font-card">
                                     <p>Menjadikan keluarga sebagai sarana Tarbiyah</p>
-                                    <p>Melahirkan keturunan yang dekat dengan Al-Qur'an, 
+                                    <p>Melahirkan keturunan yang dekat dengan Al-Quran, 
                                         berakhlak terpuji dan bermanfaat bagi orang banyak</p>
                                     <p>Menjadikan keluarga yang mandiri secara sikap (matang) 
                                         dan mandiri secara finansial (ekonomi).</p>
@@ -149,7 +149,7 @@ function Criteria (){
                             <td className="fw-bold font-card">
                             <AiFillCheckCircle style={{fontSize: '15px', marginRight: '5px'}}/>
                                 Sholat</td>
-                            <td className="font-card">: Jama'ah di Masjid, terutama shubuh dan maghrib</td>
+                            <td className="font-card">: Jamaah di Masjid, terutama shubuh dan maghrib</td>
                         </tr>
                         <tr>
                             <td className="fw-bold font-card">
