@@ -83,7 +83,9 @@ function Sidebar (){
                         </button>
                     </nav>
                     <div className=" d-flex align-items-end sidebar-footer">
-                        <button type="button" style={{width: '300px'}}>
+                        <button type="button" style={{width: '300px'}}
+                        onClick={() => router.push('/')}
+                        >
                         <FiLogOut className="fs-3" />
                         <span style={{animationDelay: "0.1s"}}>
                         </span>
