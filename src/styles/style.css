@@ -375,4 +375,9 @@ nav i.bi {
     padding-left: 0px !important;
     background-color: rgb(184, 193, 193);
 } */
-
+.font-card{
+    font-size: 13px;
+}
+.overflow-x {
+    overflow-x: scroll;
+}
