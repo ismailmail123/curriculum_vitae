@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FcHome } from 'react-icons/fc';
+import { FaHome } from 'react-icons/fa';
 import { GrDocumentStore, GrSettingsOption } from 'react-icons/gr';
 import { FiUsers, FiLogOut } from 'react-icons/fi';
 import ismail from '../../../public/assets/image/Ismail.jpg'
@@ -56,7 +56,7 @@ function Sidebar (){
                         <button  style={{width: '300px'}}
                         onClick={() =>router.push('/identity')}
                         >
-                            <FcHome className="fs-3"></FcHome>
+                            <FaHome className="fs-3"></FcHome>
                             Home
                             <span style={{animationDelay: "0.1s"}}>
                             </span>
@@ -65,7 +65,7 @@ function Sidebar (){
                         onClick={() =>router.push('/criteria')}
                         >
                             <GrDocumentStore className="fs-3" />
-                            Data
+                            Criteria
                             <span style={{animationDelay: "0.1s"}}>
                             </span>
                         </button>
