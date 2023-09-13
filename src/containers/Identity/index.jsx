@@ -155,7 +155,7 @@ function Identity (){
                     <AiFillCheckCircle style={{fontSize: '15px'}}/>
                     <span className="ms-2 font-card" >
                         <span className="fw-bold me-3">SMAN 8 Mandai-Maros : </span>
-                         2012 - 2014
+                         2011 - 2014
                          
                     </span>
                 </div>
