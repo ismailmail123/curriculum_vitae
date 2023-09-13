@@ -25,7 +25,7 @@ function Criteria (){
                         </div>
                     </div>
                     <div className="bg-success bg-opacity-25 p-2" 
-                    style={{height: '100vh', width: '100%', marginTop: '-150px'}}
+                    style={{height: '100vh', width: '100%'}}
                     >
                         <div className="row-gap-3" style={{marginTop: '150px'}}>
                             <div className="text-center">
