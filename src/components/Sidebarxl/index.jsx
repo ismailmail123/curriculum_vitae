@@ -25,7 +25,7 @@ function Sidebar (){
                     <div className='logo'>
                         <div className="admin">
                             <Image className="admin-img" src={avatar} alt="" />
-                            <h1>Ismail</h1>
+                            <h1>User</h1>
                         </div>
                             
                             <i className='bi bi-justify smallDeviceIcon'
@@ -35,16 +35,18 @@ function Sidebar (){
                     </div>
                     
                     <ul>
-                        <li>
+                        {/* <li>
                             <Form.Control
                             type="search"
                             placeholder="Search ..."
                             className="me-2 mt-2 search"
                             aria-label="Search"
                             />
-                        </li>
+                        </li> */}
                         <li>
-                            <button className="mt-2 btn btn-outline-success register" >Register</button>
+                            <button className="mt-2 btn btn-outline-success register"
+                            onClick={() => router.push('/')}
+                            >Register</button>
                         </li>
                     </ul>
                 </nav>

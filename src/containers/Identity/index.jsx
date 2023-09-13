@@ -5,6 +5,7 @@ import avatar from '../../../public/assets/image/avatar.jpg'
 import { BsWhatsapp, BsInstagram } from 'react-icons/bs';
 import { BiLogoFacebookCircle, BiSolidUserCircle } from 'react-icons/bi';
 import { AiFillCheckCircle, AiOutlineMail } from 'react-icons/ai';
+import { GiGraduateCap } from 'react-icons/gi';
 import { SiGooglemaps } from 'react-icons/si';
 import ReactWhatsapp from 'react-whatsapp';
 
@@ -15,10 +16,10 @@ function Identity (){
 
         <Row className="isDekstop">
            <Col className="col-3 padding-left " style={{height: '100vh'}}>
-           <div className='logo1 bg-primary bg-opacity-50 p-2'>
+                    <div className='d-flex align-items-center justify-content-center logo1 bg-primary bg-opacity-50 p-2'>
                         <div className="admin1">
                             <Image className="admin1-img" src={ismail} alt="" />
-                            <h1>Ismail</h1>
+                            <h1 className="mt-2">Ismail</h1>
                             <hr className="ms-2 w-75" />
 
                         </div>
@@ -61,7 +62,7 @@ function Identity (){
            <Card className="border-0 bg-success p-2 bg-opacity-10 overflow-x-auto" style={{width: '90%'}}>
             <div style={{ width: '370px'}}>
             <div>
-            <BiSolidUserCircle className="text-primary" style={{borderRadius: '50%', width: '30px', height: '30px'}} src={avatar} alt="" />
+            <BiSolidUserCircle className="text-primary me-2" style={{borderRadius: '50%', width: '30px', height: '30px'}} src={avatar} alt="" />
             <span className="fw-bold">DATA PRIBADI</span>
             </div>
                 <Row className="ms-1">
@@ -118,7 +119,7 @@ function Identity (){
             <Card className="mt-4 border-0 bg-success p-2 bg-opacity-10 overflow-x-auto" style={{width: '90%'}}>
                 <div style={{ width: '320px'}}>
                 <div>
-                    <BiSolidUserCircle className="text-primary" style={{borderRadius: '50%', width: '30px', height: '30px'}} src={avatar} alt="" />
+                    <GiGraduateCap className="text-primary me-2" style={{borderRadius: '50%', width: '30px', height: '30px'}} src={avatar} alt="" />
                     <span className="fw-bold">PENDIDIKAN FORMAL</span>
                 </div>
                 <Row className="ms-1">
@@ -182,7 +183,7 @@ function Identity (){
             </Card>
             <Card className="mt-3 border-0 bg-success p-2 bg-opacity-10 overflow-x" >
             <div>
-            <BiSolidUserCircle className="text-primary" style={{borderRadius: '50%', width: '30px', height: '30px'}} src={avatar} alt="" />
+            <BiSolidUserCircle className="text-primary me-2" style={{borderRadius: '50%', width: '30px', height: '30px'}} src={avatar} alt="" />
             <span className="fw-bold">TENTANG SAYA</span>
             </div>
                 <Row className="ms-1" style={{ width: '390px'}}>
@@ -192,14 +193,14 @@ function Identity (){
                             <td className="fw-bold font-card">Warna Favorit</td>
                             <td className="font-card">: Biru, Hijau, Coklat</td>
                         </tr>
-                        <tr>
+                        {/* <tr>
                             <td className="fw-bold font-card">Makanan Favorit</td>
                             <td className="font-card">: Ayam, Sayur, Kentang, salad</td>
                         </tr>
                         <tr>
                             <td className="fw-bold font-card"> Minuman Favorit </td>
                             <td className="font-card">: Madu, air Kelapa, Jus Melon, Jus Buah Naga</td>
-                        </tr>
+                        </tr> */}
                         <tr>
                             <td className="fw-bold font-card"> Hal yang Disuka </td>
                             <td className="font-card">: Bangun Pagi, Membaca, Belajar Bahasa Pemrograman web</td>
