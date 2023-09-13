@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FaHome } from 'react-icons/fa';
+import { BiSolidDownload } from 'react-icons/bi';
 import { GrDocumentStore, GrSettingsOption } from 'react-icons/gr';
 import { FiUsers, FiLogOut } from 'react-icons/fi';
 import ismail from '../../../public/assets/image/Ismail.jpg'
@@ -69,17 +70,13 @@ function Sidebar (){
                             <span style={{animationDelay: "0.1s"}}>
                             </span>
                         </button>
-                        <button type="button" style={{width: '300px'}}>
-                            <GrSettingsOption className="fs-3" />
-                            Setting
+                        <button type="button" style={{width: '300px'}}
+                        onClick={() =>router.push('/file_download')}
+                        >
+                            <BiSolidDownload className="fs-3" />
+                            Download
                             <span style={{animationDelay: "0.1s"}}>
                             </span>
-                        </button>
-                        <button type="button" style={{width: '300px'}}>
-                            <FiUsers className="fs-3" />
-                            User
-                            <span style={{animationDelay: "0.1s"}}>
-                            </span>    
                         </button>
                     </nav>
                     <div className=" d-flex align-items-end sidebar-footer">

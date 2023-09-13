@@ -14,7 +14,7 @@ function Criteria (){
 
     return (
 
-        <Row className="mt-5">
+        <Row  className="mt-5 isDekstopcr">
            <Col className="col-4 padding-left " style={{height: '100vh'}}>
            <div className='logo2 bg-primary bg-opacity-50 p-2'>
                         <div className="admin2">
@@ -101,7 +101,7 @@ function Criteria (){
                         <span className="ms-2"></span>
                     </div>
                     <div>
-                        <span className="ms-2">: RaupungBondeng Dg. Bau</span><br/>
+                        <span className="ms-2">: Bondeng Dg. Bau</span><br/>
                         <span className="ms-2">: Maros, 12 Desember 1968</span><br/>
                         <span className="ms-2">: IRT</span>
                     </div>
@@ -174,9 +174,9 @@ function Criteria (){
             <span className="fw-bold">KRITERIA CALON PASANGAN</span>
             </div>
             <Row className="ms-1" style={{ width: '390px'}}>
-                <table className="ms-3" style={{fontSize: '10px', width: '100%'}} >
+                <table className="ms-3 " style={{fontSize: '10px', width: '100%'}} >
                     <tbody>
-                        <tr className="me-2">
+                        <tr className="me-2 border-danger border-bottom">
                             <td className="fw-bold font-card">
                                 SHALEHAH</td>
                             <td className="font-card text-center text-warning">
@@ -190,7 +190,7 @@ function Criteria (){
                             </td>
                             <td className="font-card">kriteria fisik ialah berjilbab dan tidak berpenampilan berlebihan</td>
                         </tr>
-                        <tr>
+                        <tr className="border-danger border-bottom">
                             <td className="fw-bold font-card">
                                 CANTIK</td>
                             <td className="font-card text-center text-warning col-3" >
@@ -204,7 +204,7 @@ function Criteria (){
                             </td>
                             <td className="font-card">Cantik yang dimaksud bukan merupakan hal yang paling utama dan menentukan</td>
                         </tr>
-                        <tr>
+                        <tr className=" border-danger border-bottom">
                             <td className="fw-bold font-card">
                                 BERBAKTI</td>
                             <td className="font-card text-center text-warning">
@@ -218,7 +218,7 @@ function Criteria (){
                             </td>
                             <td className="font-card">Shaleh dan berbakti kepada suami adalah hal yang dibutuhkan</td>
                         </tr>
-                        <tr>
+                        <tr >
                             <td className="fw-bold font-card">
                                SETIA</td>
                             <td className="font-card text-center text-warning">
@@ -244,19 +244,19 @@ function Criteria (){
             <Row className="ms-1" style={{ width: '390px'}}>
                 <table className="ms-3" style={{fontSize: '10px', width: '100%'}} >
                     <tbody>
-                        <tr className="me-2">
+                        <tr className="me-2 border-danger border-bottom">
                             <td className="fw-bold font-card col-4">
                                Rumah Tangga</td>
                             
                             <td className="font-card ">: Segala upaya untuk memberikan rasa aman</td>
                         </tr>
-                        <tr>
+                        <tr className="border-danger border-bottom">
                             <td className="fw-bold font-card col-4">
                                 Keturunan</td>
                             
                             <td className="font-card ">: Memiliki keturunan akhlak terpuji dan qurani</td>
                         </tr>
-                        <tr>
+                        <tr className="border-danger border-bottom">
                             <td className="fw-bold font-card col-4">
                                 Pekerjaan</td>
                             

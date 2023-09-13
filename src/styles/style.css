@@ -184,6 +184,15 @@ body.open.sidebar button > span {
        padding: 0px;
     }
     
+    
+}
+@media (min-width: 768px) {
+    .isDekstop {
+        margin-left: 30px;
+    }
+    .isDekstopcr {
+        margin-left: 135px;
+    }
 }
 /* @media (max-width: 767px) {
     .mobile1 {

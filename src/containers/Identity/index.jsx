@@ -13,7 +13,7 @@ function Identity (){
 
     return (
 
-        <Row>
+        <Row className="isDekstop">
            <Col className="col-3 padding-left " style={{height: '100vh'}}>
            <div className='logo1 bg-primary bg-opacity-50 p-2'>
                         <div className="admin1">
