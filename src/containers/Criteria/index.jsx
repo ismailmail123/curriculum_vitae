@@ -27,7 +27,7 @@ function Criteria (){
                     <div className="bg-success bg-opacity-25 p-2" 
                     style={{height: '100vh', width: '100%'}}
                     >
-                        <div className="row-gap-3" style={{marginTop: '150px'}}>
+                        <div className="row-gap-3">
                             <div className="text-center">
                                 <h6 className="fw-bold">VISI</h6>
                                 <p>Membangun keluarga yang senantiasa memberikan rasa aman (sakinah)</p>
