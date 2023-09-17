@@ -80,7 +80,7 @@ function Message (){
                                 <Card className="mt-3 d-flex" style={{width: '350px', backgroundColor: '#03fc7b' }} >
                                 <div className="d-flex justify-content-between">
                                     <span className="fw-bold fs-6 lh-1 ms-2 text-light">👨‍💼{recipient.name}</span>
-                                    <span className="text-end text-secondary" style={{fontSize: '10px'}}>{dayjs(recipient?.createdAt).format("DD MMMM, HH:MM")}</span>
+                                    <span className="text-end text-secondary" style={{fontSize: '10px'}}>{dayjs(recipient?.createdAt).format("DD MMMM, HH:mm")}</span>
                                 </div>
                                
                                     <Card
