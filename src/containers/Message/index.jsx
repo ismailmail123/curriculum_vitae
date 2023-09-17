@@ -116,7 +116,7 @@ function Message (){
                         {/* <Col sm="8"> */}
                             <Form.Control
                                 type="text"
-                                placeholder="Nama"
+                                placeholder="Nama tidak boleh kosong"
                                 className='forminput rounded-pill'
                                 onChange={(e) => setName(e.target.value)} 
                              />
@@ -135,7 +135,7 @@ function Message (){
                                     <Row className="d-flex">
                                             <textarea
                                                 type="text"
-                                                placeholder="Pesan"
+                                                placeholder="Pesan tidak boleh kosong"
                                                 className='forminput rounded-pill ms-3'
                                                 onChange={(e) => setSay(e.target.value)}
                                             />
