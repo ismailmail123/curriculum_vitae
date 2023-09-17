@@ -3,6 +3,7 @@ import { FaHome } from 'react-icons/fa';
 import { BiSolidDownload } from 'react-icons/bi';
 import { GrDocumentStore, GrSettingsOption } from 'react-icons/gr';
 import { FiUsers, FiLogOut } from 'react-icons/fi';
+import { AiTwotoneMail } from 'react-icons/ai';
 import ismail from '../../../public/assets/image/Ismail.jpg'
 import avatar from '../../../public/assets/image/avatar.jpg'
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -77,6 +78,14 @@ function Sidebar (){
                         >
                             <BiSolidDownload className="fs-3" />
                             Download
+                            <span style={{animationDelay: "0.1s"}}>
+                            </span>
+                        </button>
+                        <button type="button" style={{width: '300px'}}
+                        onClick={() =>router.push('/message')}
+                        >
+                            <AiTwotoneMail className="fs-3" />
+                            Message
                             <span style={{animationDelay: "0.1s"}}>
                             </span>
                         </button>
