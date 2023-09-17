@@ -147,7 +147,7 @@ function Message (){
                                 className="bg-primary rounded-circle ms-4" 
                                 style={{width: '50px', height: '50px'}}
                                 onClick={() => submitHendler()}
-                                disabled={!cards}
+                                disabled={!name || !say}
                                 >
                  <BiSolidSend className="fs-2 text-center text-light" />
                 </button>
