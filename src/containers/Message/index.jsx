@@ -87,7 +87,7 @@ function Message (){
                                     //  style={{width: '350px'}}
                                     >
                                         
-                                                <p className="fw-bold lh-1 ms-1 me-1">{recipient.say}</p>
+                                                <p className="lh-1 ms-1 me-1">{recipient.say}</p>
                                                 
                                         
                                     </Card>
