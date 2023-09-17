@@ -106,7 +106,7 @@ function Message (){
             </Card>
         
            </Container>
-            <div className='font-template  fixed-bottom bg-opacity-75 mb-1' style={{width: '415px' }}>
+            <div className='font-template  fixed-bottom bg-opacity-75 mb-1' style={{width: '415px'}}>
                 
                 <Form.Group
                     className="mb-3 w-50 ms-3"
@@ -147,6 +147,7 @@ function Message (){
                                 className="bg-primary rounded-circle ms-4" 
                                 style={{width: '50px', height: '50px'}}
                                 onClick={() => submitHendler()}
+                                disabled={!cards}
                                 >
                  <BiSolidSend className="fs-2 text-center text-light" />
                 </button>
