@@ -79,8 +79,8 @@ function Message (){
                             <div key={messageId} className=' d-flex justify-content-center'>
                                 <Card className="mt-3 d-flex bg-success" style={{width: '350px' }} >
                                 
-                                <h6 className="fw-bold lh-1 ms-2 text-light">👨‍💼{recipient.name}</h6>
-                                
+                                <span className="fw-bold fs-6 lh-1 ms-2 text-light">👨‍💼{recipient.name}</span>
+                                <span className="text-end">{rexipint.createdAt}</span>
                                     <Card
                                     //  style={{width: '350px'}}
                                     >
