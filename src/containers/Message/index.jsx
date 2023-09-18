@@ -6,7 +6,7 @@ import { BiSolidSend } from 'react-icons/bi';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
 import { RiDeleteBinLine } from 'react-icons/ri';
 import ReactScrollableFeed from 'react-scrollable-feed';
-
+import dayjs from 'dayjs';
 
 
 function Message (){
@@ -80,7 +80,7 @@ function Message (){
                                 <Card className="mt-3 d-flex bg-success" style={{width: '350px' }} >
                                 
                                 <span className="fw-bold fs-6 lh-1 ms-2 text-light">👨‍💼{recipient.name}</span>
-                                <span className="text-end">{rexipint.createdAt}</span>
+                                <span className="text-end">{dayjs(recipient?.createdAt).format("DDDD:MM, HH:MM")}</span>
                                     <Card
                                     //  style={{width: '350px'}}
                                     >
