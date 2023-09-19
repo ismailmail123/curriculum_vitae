@@ -83,6 +83,7 @@ function Sidebar (){
                         </button>
                         <button type="button" style={{width: '300px'}}
                         onClick={() =>router.push('/message')}
+                           disable
                         >
                             <AiTwotoneMail className="fs-3" />
                             Message
