@@ -21,7 +21,7 @@ function HomePage (){
         <h2 className="mb-3">السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُهُ</h2>
         <h2>Klik tombol berikut</h2>
         <Button onClick={() =>router.push('/identity')} className='w-25 btn-success mt-5' disabled >MY CV</Button>
-<span style={{fontsize: "5px"}}>This is button disabled</span>
+<span style={{fontSize: "5px"}}>This is button disabled</span>
       </div>
       
     </Container>
