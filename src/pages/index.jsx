@@ -20,8 +20,8 @@ function HomePage (){
       <div className='text-center'>
         <h2 className="mb-3">السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُهُ</h2>
         <h2>Klik tombol berikut</h2>
-        <Button onClick={() =>router.push('/identity')} className='w-25 btn-success mt-5' disabled >MY CV</Button>
-<p className= "text-danger" style={{fontSize: "5px"}}>This is a disabled button</p>
+        <Button onClick={() =>router.push('/identity')} className='w-25 btn-success mt-5' >MY CV</Button>
+//<p className= "text-danger" style={{fontSize: "5px"}}>This is a disabled button</p>
       </div>
       
     </Container>
